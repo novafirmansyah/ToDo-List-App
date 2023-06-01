@@ -26,7 +26,7 @@ function TodoItem(props) {
     <div>
       <div className="item-container p-3 d-flex justify-content-between align-items-center">
         <div className="d-flex justify-content-stat align-items-center">
-          <img src={props.isDone == true ? checklistTrue : checklistFalse} alt="" width={"30px"} className="me-2" />
+          <img src={props.isDone == true ? checklistTrue : checklistFalse} alt="" width={"60px"} className="me-2" />
           {props.isDone == true ? (
             <span>
               <s>{props.todo}</s>

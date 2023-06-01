@@ -8,20 +8,21 @@
 }
 .btn-purple {
   background-color: #04ec04;
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn-purple:hover {
   background-color: #00c400;
-  color: #fff;
+  color: #ffffff;
 }
 
 .item-container {
   color: #363f48;
-  border-radius: 8px;
-  border: solid 1px #36434e;
-  min-width: 350px;
-  max-width: 350px;
+  border-radius: 25px;
+  border: solid 2px #36434e;
+  min-width: 800px;
+  max-width: 800px;
+  margin-top: 15px;
 }
 
 .cursor-pointer {
